@@ -113,7 +113,7 @@ python visualizations.py
 ```
 Creates 8 professional charts saved as PNG files
 
-## 📈 Analytics Performed
+## Analytics Performed
 
 The platform includes 10 comprehensive business analyses:
 
@@ -327,4 +327,4 @@ For questions or collaboration opportunities, please reach out through GitHub or
 
 ---
 
-*Built with Python, SQL, and a passion for data-driven insights* 🚀
+*Built with Python, SQL, and a passion for data-driven insights*
