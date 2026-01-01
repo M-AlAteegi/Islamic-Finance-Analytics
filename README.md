@@ -8,7 +8,7 @@ A comprehensive data science project simulating an Islamic finance company that 
 
 ![Executive Dashboard](visualizations/viz_dashboard.png)
 
-## 🎯 Project Overview
+## Project Overview
 
 This platform simulates a complete Islamic finance ecosystem:
 - **Sukuk Issuance**: Islamic bonds sold to investors seeking ethical investments
@@ -23,7 +23,7 @@ This platform simulates a complete Islamic finance ecosystem:
 - **5.6%** Portfolio default rate
 - **94.7%** On-time payment rate
 
-## 📊 Business Insights
+## Business Insights
 
 ### Industry Performance Analysis
 Different industries show varying risk profiles. Construction and Technology demonstrate the lowest default rates, while Agriculture shows higher risk.
@@ -45,7 +45,7 @@ The majority of loans are either actively performing or successfully paid off, w
 
 ![Loan Status](visualizations/viz_loan_status.png)
 
-## 🗂️ Database Schema
+## Database Schema
 
 The project uses an 8-table relational database with proper normalization:
 
@@ -72,7 +72,7 @@ borrowers ─────→ business_loans ──→ loan_payments
 employees ─────→ (approvals/processing)
 ```
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 ```bash
@@ -131,7 +131,7 @@ The platform includes 10 comprehensive business analyses:
 ### Sample Analysis Output
 
 ```
-📊 Financial Snapshot:
+Financial Snapshot:
 ────────────────────────────────────────────────────────────
 Capital Raised (Sukuk Sales):        $206,873,727.00
 Total Loans Disbursed:               $32,897,420.00
@@ -142,7 +142,7 @@ Return on Active Assets:             10.31%
 ────────────────────────────────────────────────────────────
 ```
 
-## 🎨 Visualizations
+## Visualizations
 
 ### Sukuk Performance Trends
 Tracking investment activity and capital flows over time.
@@ -159,7 +159,7 @@ Quarterly profit distributions to Sukuk holders visualized over time.
 
 ![Profit Heatmap](visualizations/viz_profit_heatmap.png)
 
-## 💼 Skills Demonstrated
+## Skills Demonstrated
 
 ### Technical Skills
 - **SQL**: Complex queries, joins, aggregations, subqueries, CTEs
@@ -181,7 +181,7 @@ Quarterly profit distributions to Sukuk holders visualized over time.
 - Correlation analysis
 - Portfolio risk metrics
 
-## 📚 Islamic Finance Principles
+## Islamic Finance Principles
 
 This project adheres to Sharia-compliant financial practices:
 
@@ -198,7 +198,7 @@ This project adheres to Sharia-compliant financial practices:
 - **Murabaha** - Cost-plus financing
 - **Istisna** - Manufacturing/construction financing
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 islamic-finance-analytics/
@@ -224,7 +224,7 @@ islamic-finance-analytics/
     └── viz_dashboard.png
 ```
 
-## 🔍 Sample SQL Queries
+## Sample SQL Queries
 
 ### Default Rate by Industry
 ```sql
@@ -254,7 +254,7 @@ GROUP BY i.investor_id
 ORDER BY total_returns DESC;
 ```
 
-## 🎓 Key Findings
+## Key Findings
 
 ### Risk Insights
 - **Credit Score Correlation**: Higher credit scores (750+) show 4.35% default rate vs 5.56% for scores below 600
@@ -271,7 +271,7 @@ ORDER BY total_returns DESC;
 - **Average Investment**: Conservative investors average $535K per investor
 - **Loyalty**: Top 10 investors contribute significant portfolio concentration
 
-## 🔮 Future Enhancements
+## Future Enhancements
 
 Potential additions to expand the project:
 
@@ -299,29 +299,29 @@ Potential additions to expand the project:
 - Authentication and authorization
 - Rate limiting and caching
 
-## 📝 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 👤 Author
+## Author
 
 **Mohammed Al-Ateegi**
 - GitHub: [@M-AlAteegi](https://github.com/M-AlAteegi)
 - LinkedIn: [Mohammed Al-Ateegi](https://www.linkedin.com/in/mohammed-alateegi-2853b3248)
 
-## 🤝 Contributing
+## Contributing
 
 Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/M-AlAteegi/islamic-finance-analytics/issues).
 
-## ⭐ Show Your Support
+## Show Your Support
 
-Give a ⭐ if this project helped you learn about data science, databases, or Islamic finance!
+Give a if this project helped you learn about data science, databases, or Islamic finance!
 
 ---
 
 **Note**: All data in this project is synthetically generated for educational purposes and does not represent real individuals, companies, or financial transactions.
 
-## 📧 Contact
+## Contact
 
 For questions or collaboration opportunities, please reach out through GitHub or LinkedIn.
 
